@@ -82,7 +82,7 @@ public class DashPlayerActivity extends AppCompatActivity {
 //    player = new SimpleExoPlayer.Builder(this).build();
         playerView.setPlayer(player);
 
-        Uri uri = Uri.parse(getString(R.string.media_url_dash));
+        Uri uri = Uri.parse(getString(R.string.aws_dash));
         MediaSource mediaSource = buildMediaSource(uri);
 
         player.setPlayWhenReady(playWhenReady);
@@ -102,7 +102,7 @@ public class DashPlayerActivity extends AppCompatActivity {
 
     private MediaSource buildMediaSource(Uri uri) {
         DataSource.Factory dataSourceFactory =
-                new DefaultDataSourceFactory(this, "exoplayer-codelab");
+                new DefaultDataSourceFactory(this, "exoplayer");
         DashMediaSource.Factory mediaSourceFactory = new DashMediaSource.Factory(dataSourceFactory);
         return mediaSourceFactory.createMediaSource(uri);
     }

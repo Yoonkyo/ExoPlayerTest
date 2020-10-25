@@ -36,7 +36,7 @@ public class Mp4PlayerActivity extends AppCompatActivity {
         player = new SimpleExoPlayer.Builder(this).build();
         playerView.setPlayer(player);
 
-        Uri uri = Uri.parse(getString(R.string.versatile_mp4));
+        Uri uri = Uri.parse(getString(R.string.aws_mp4));
         MediaSource mediaSource = buildMediaSource(uri);
 
         player.setPlayWhenReady(playWhenReady);

@@ -7,5 +7,10 @@
     <string name="media_url_dash"><![CDATA[https://www.youtube.com/api/manifest/dash/id/bf5bb2419360daf1/source/youtube?as=fmp4_audio_clear,fmp4_sd_hd_clear&sparams=ip,ipbits,expire,source,id,as&ip=0.0.0.0&ipbits=0&expire=19000000000&signature=51AF5F39AB0CEC3E5497CD9C900EBFEAECCCB5C7.8506521BFC350652163895D4C26DEE124209AA9E&key=ik0]]></string>
     <string name="versatile_mp4">http://147.46.125.210:5080/dash/test_input.mp4</string>
     <string name="versatile_dash">http://147.46.125.210:5080/dash_final/dash.mpd</string>
-    <string name="versatile_live">rtmp://147.46.125.210:1935/stream/dash/test_input.mp4</string>
+    <string name="versatile_live">rtmp://147.46.125.210:1935/stream/test</string>
+    <string name="aws_mp4">http://52.78.23.173:80/dash/test_input.mp4</string>
+    <string name="aws_dash">http://52.78.23.173:80/dash/encoding/dash.mpd</string>
+    <string name="aws_live">rtmp://52.78.23.173:1935/stream/test</string>
+    <string name="test_url_dash">https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd</string>
+    <string name="url">Url</string>
 </resources>
